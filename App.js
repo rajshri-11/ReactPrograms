@@ -1,11 +1,12 @@
 import logo from './logo.svg';
-import './App.css';
+
+import {List,Ulist} from './List'
 
 function App() {
   return (
     <div className="App">
-      <h1><b> hello everyone we learn React app</b></h1>
-    
+     <List/>
+    <Ulist/>
     </div>
   );
 }
